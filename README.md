@@ -1,6 +1,6 @@
 # Computational Design Skills
 
-### A Claude Code Skills Plugin by Abhinav Bhardwaj
+### A Claude Code Skills Plugin for Computational Designers
 
 18 interconnected skills covering computational geometry, parametric modeling, generative design, structural computation, environmental simulation, facade engineering, digital fabrication, BIM scripting, and machine learning for AEC. References 50+ pioneers, 30+ tools, 6+ analysis engines, and hundreds of numeric benchmarks. Includes 7 Python calculators for geometry, structural checking, solar analysis, panel optimization, mesh analysis, material estimation, and fabrication costing.
 
