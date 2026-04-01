@@ -1,0 +1,44 @@
+{
+  "id": "claude-computational-design-skills",
+  "name": "Computational Design Skills",
+  "version": "1.0.0",
+  "description": "A Claude Code skills plugin for computational designers, covering 18 AEC skills from parametric modeling to structural computation with 7 Python calculators.",
+  "author": "Claude Skills Maintainer",
+  "license": "MIT",
+  "repository": "https://github.com/your-org/Claude-skills-for-Computational-Designers",
+  "homepage": "https://github.com/your-org/Claude-skills-for-Computational-Designers",
+  "categories": ["computational-design", "architecture", "engineering", "generative-design", "simulation"],
+  "platforms": ["linux", "macos", "windows"],
+  "claude_version": ">=2.0",
+  "entrypoint": "README.md",
+  "install": {
+    "commands": [
+      "claude --plugin-dir \"/path/to/Computational Design Skills\"",
+      "cp -r skills/ your-project/.claude/skills/"
+    ],
+    "notes": "No slash commands required. Skills auto-activate based on user intent."
+  },
+  "tags": ["aec", "bim", "mesh", "nurbs", "optimization", "fabrication", "simulation", "ml"],
+  "skill_count": 18,
+  "skills": [
+    { "name": "algorithmic-patterns", "path": "skills/algorithmic-patterns/SKILL.md", "description": "Pattern-based algorithmic design insights." },
+    { "name": "bim-scripting", "path": "skills/bim-scripting/SKILL.md", "description": "BIM automation and scripting (Revit, IFC, Dynamo)." },
+    { "name": "cd-calculator", "path": "skills/cd-calculator/SKILL.md", "description": "Calculator scripts for geometry, materials, and structural checks." },
+    { "name": "cd-foundations", "path": "skills/cd-foundations/SKILL.md", "description": "Core computational design concepts and workflows." },
+    { "name": "computational-geometry", "path": "skills/computational-geometry/SKILL.md", "description": "Mesh, NURBS, tessellation fundamentals." },
+    { "name": "data-driven-design", "path": "skills/data-driven-design/SKILL.md", "description": "Integration of GIS, sensors, and spatial data analytics." },
+    { "name": "design-automation", "path": "skills/design-automation/SKILL.md", "description": "Rule-based layout, space planning and automation patterns." },
+    { "name": "digital-fabrication", "path": "skills/digital-fabrication/SKILL.md", "description": "CNC, additive and robotic fabrication processes." },
+    { "name": "environmental-simulation", "path": "skills/environmental-simulation/SKILL.md", "description": "Energy, CFD, daylight, and acoustic simulation methods." },
+    { "name": "facade-computation", "path": "skills/facade-computation/SKILL.md", "description": "Facade rationalization, panelization, and kinetics." },
+    { "name": "generative-design", "path": "skills/generative-design/SKILL.md", "description": "Evolutionary algorithms and optimization workflows." },
+    { "name": "interoperability", "path": "skills/interoperability/SKILL.md", "description": "File formats and data-pipeline patterns." },
+    { "name": "mesh-processing", "path": "skills/mesh-processing/SKILL.md", "description": "Mesh operations, repair, and quality improvement." },
+    { "name": "ml-for-aec", "path": "skills/ml-for-aec/SKILL.md", "description": "Computer vision, generative models, and prediction for AEC." },
+    { "name": "optimization-methods", "path": "skills/optimization-methods/SKILL.md", "description": "Single/multi-objective and topology optimization." },
+    { "name": "parametric-modeling", "path": "skills/parametric-modeling/SKILL.md", "description": "Parametric and procedural modeling patterns." },
+    { "name": "scripting-reference", "path": "skills/scripting-reference/SKILL.md", "description": "Scripting APIs, syntax, and ecosystem references." },
+    { "name": "structural-computation", "path": "skills/structural-computation/SKILL.md", "description": "Form-finding, FEA, and structural calculation knowledge." }
+  ],
+  "additional_files": ["README.md", "LICENSE"]
+}
